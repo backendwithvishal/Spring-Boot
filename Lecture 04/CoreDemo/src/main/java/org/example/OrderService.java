@@ -20,5 +20,7 @@ public class OrderService {
         notification.sendNotification();
     }
 
-    
+    public void setNotification(NotificationService notification) {
+        this.notification = notification;
+    }
 }
