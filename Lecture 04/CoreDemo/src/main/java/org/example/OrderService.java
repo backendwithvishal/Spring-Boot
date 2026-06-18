@@ -15,6 +15,10 @@ public class OrderService {
 
 //    NotificationService notification = new EmailService();
 
+    public OrderService(){
+
+    }
+
     public void placOrder() {
         System.out.println("Order placed");
         notification.sendNotification();

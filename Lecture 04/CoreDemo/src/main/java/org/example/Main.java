@@ -10,7 +10,9 @@ public class Main {
 
         NotificationService notification = new FakeEmailService();
 
-        OrderService order = new OrderService(notification);
+//        OrderService order = new OrderService(notification);
+
+        OrderService order = new OrderService();
 
         order.placOrder();
     }
