@@ -6,4 +6,5 @@ public class FakeEmailService implements NotificationService {
     public void sendNotification() {
         System.out.println("Dummy Email send");
     }
+
 }
