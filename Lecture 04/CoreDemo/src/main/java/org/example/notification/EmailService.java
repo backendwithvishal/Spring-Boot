@@ -1,4 +1,4 @@
-package org.example;
+package org.example.notification;
 
 public class EmailService {
     public void sendNotification(){

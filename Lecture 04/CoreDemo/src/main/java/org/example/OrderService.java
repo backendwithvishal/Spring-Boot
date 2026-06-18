@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.notification.EmailService;
+
 public class OrderService {
 
     EmailService notification = new EmailService();
