@@ -1,7 +1,11 @@
 package org.example.notification;
 
-public class EmailService {
+public class EmailService implements NotificationService{
+
+
+
     public void sendNotification(){
         System.out.println("Email modification Sent");
     }
 }
+
