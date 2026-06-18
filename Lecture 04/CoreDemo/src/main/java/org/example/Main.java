@@ -15,3 +15,6 @@ public class Main {
         order.placOrder();
     }
 }
+
+// A class should ask what it needs and not
+// build everything itself
