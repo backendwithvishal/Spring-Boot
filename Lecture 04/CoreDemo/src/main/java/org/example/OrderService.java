@@ -7,7 +7,13 @@ import org.example.notification.SmsService;
 
 public class OrderService {
 
-    NotificationService notification = new EmailService();
+    NotificationService notification;
+
+    public OrderService(NotificationService notification) {
+        this.notification = notification;
+    }
+
+//    NotificationService notification = new EmailService();
 
     public void placOrder() {
         System.out.println("Order placed");

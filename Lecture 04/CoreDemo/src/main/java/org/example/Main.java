@@ -1,9 +1,16 @@
 package org.example;
 
-public class Main {
-    public static void main(){
+import org.example.notification.EmailService;
+import org.example.notification.NotificationService;
 
-        OrderService order = new OrderService();
+public class Main {
+
+    public static void main(String[] args) {
+
+        NotificationService notification = new EmailService();
+
+        OrderService order = new OrderService(notification);
+
         order.placOrder();
     }
 }
