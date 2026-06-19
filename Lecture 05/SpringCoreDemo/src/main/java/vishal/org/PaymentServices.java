@@ -1,4 +1,7 @@
 package vishal.org;
 
 public class PaymentServices {
+    public void pay() {
+        System.out.println("Payment done");
+    }
 }
