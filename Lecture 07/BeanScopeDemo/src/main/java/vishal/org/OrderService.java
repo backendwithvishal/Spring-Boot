@@ -1,8 +1,15 @@
 package vishal.org;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class OrderService {
 
-    public void placeOrder(){
+    public OrderService() {
+        System.out.println("Order Service created");
+    }
 
+    public void placeOrder(){
+        System.out.println("Order placed");
     }
 }
