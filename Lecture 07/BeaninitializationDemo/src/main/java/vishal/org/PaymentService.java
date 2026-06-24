@@ -3,8 +3,8 @@ package vishal.org;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
-@Lazy
 @Component
+@Lazy
 public class PaymentService {
 
     public PaymentService() {

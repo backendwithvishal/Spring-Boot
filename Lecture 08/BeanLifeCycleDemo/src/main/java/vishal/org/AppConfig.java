@@ -4,6 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("vishal.org")
+@ComponentScan
 public class AppConfig {
+
 }
